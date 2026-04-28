@@ -33,7 +33,7 @@ def format_single_linter_file(file_path: str, errors: list) -> dict:
             }
             for error in errors
         ],
-        "path": "./source_code_2.py",
+        "path": file_path,
         "status": "failed" if errors else "passed"
     }
 
